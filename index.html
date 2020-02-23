@@ -3,7 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/logo/favicon.png" />
     <title>dfloresdev</title>
+    <meta
+      name="description"
+      content="¡Hola!🙊 Soy David Flores 🙋‍♂. Me encanta desarrollar con React, Angular, Node, Firebase y Google Cloud Platform."
+    />
+    <meta property="og:title" content="dfloresdev" />
+    <meta
+      property="og:description"
+      content="¡Hola!🙊 Soy David Flores 🙋‍♂. Me encanta desarrollar con React, Angular, Node, Firebase y Google Cloud Platform."
+    />
+    <meta property="og:image" content="assets/me/davidFlores.jpg" />
+    <meta property="og:url" content="https://dflores.dev" />
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
       rel="stylesheet"
@@ -14,23 +26,21 @@
     <nav class="menu">
       <div class="menu--content">
         <div class="menu--content__logo">
-          <img src="assets/logo/logo.png" alt="dfloresdev Developer" />
+          <a href="/"
+            ><img src="assets/logo/logo.png" alt="dfloresdev Developer"
+          /></a>
         </div>
         <div class="menu--content__item">
-          <a href="http://" target="_blank" rel="noopener noreferrer">Inicio</a>
+          <a href="#" rel="noopener noreferrer">Blog</a>
         </div>
         <div class="menu--content__item">
-          <a href="http://" target="_blank" rel="noopener noreferrer">Blog</a>
+          <a href="#" rel="noopener noreferrer">Conferencias</a>
         </div>
         <div class="menu--content__item">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            >Sobre mí</a
-          >
+          <a href="#" rel="noopener noreferrer">Sobre mí</a>
         </div>
         <div class="menu--content__item">
-          <a href="http://" target="_blank" rel="noopener noreferrer"
-            >Contáctame</a
-          >
+          <a href="#" rel="noopener noreferrer">Contáctame</a>
         </div>
       </div>
     </nav>
@@ -69,6 +79,9 @@
     </section>
 
     <div class="container">
+      <div class="espaciado">
+        <p class="container--title">Últimas entradas</p>
+      </div>
       <div class="container--post">
         <a href="/">
           <div class="container--post__card">
@@ -154,7 +167,9 @@
     </div>
 
     <footer class="container-footer" style="height: 10vh;">
-      <h1>Anywhere: @dfloresdev</h1>
+      <div class="menu--content">
+        <p>© 2020 Dfloresdev. All rights reserved</p>
+      </div>
     </footer>
   </body>
 </html>
