@@ -1,10 +1,12 @@
 {
   "development": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://dflores.dev",
+    "contentApiKey": "d9ee1521b0cf9fbb83b023cb85",
+    "version": "v3"
   },
   "production": {
-    "apiUrl": "https://gatsby.ghost.io",
-    "contentApiKey": "9cc5c67c358edfdd81455149d0"
+    "apiUrl": "https://dflores.dev",
+    "contentApiKey": "d9ee1521b0cf9fbb83b023cb85",
+    "version": "v3"
   }
 }
