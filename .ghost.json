@@ -1,12 +1,12 @@
 {
   "development": {
-    "apiUrl": "https://dflores.dev",
-    "contentApiKey": "d9ee1521b0cf9fbb83b023cb85",
+    "apiUrl": "https://dfloresdev.com",
+    "contentApiKey": "32f0b3ccb42c2d0fb8e02a0544",
     "version": "v3"
   },
   "production": {
-    "apiUrl": "https://dflores.dev",
-    "contentApiKey": "d9ee1521b0cf9fbb83b023cb85",
+    "apiUrl": "https://dfloresdev.com",
+    "contentApiKey": "32f0b3ccb42c2d0fb8e02a0544",
     "version": "v3"
   }
 }
