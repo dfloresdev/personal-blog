@@ -112,11 +112,30 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                             </div>
                             {isHome ? (
                                 <div className="site-banner">
+                                    <img
+                                        className="site-banner-img"
+                                        src="/images/davidFlores.jpg"
+                                    />
                                     <h1 className="site-banner-title">
-                                        {site.title}
+                                        ¡Hola!🙊 Soy David Flores 🙋‍♂
                                     </h1>
                                     <p className="site-banner-desc">
-                                        {site.description}
+                                        Ingeniero en Sistemas Computacionales,
+                                        estudiante de la primer{" "}
+                                        <strong>escuela de JavaScript</strong>{" "}
+                                        de Platzi y del programa{" "}
+                                        <strong>Platzi Master</strong>. Me
+                                        encanta aprender, practicar y proponer
+                                        soluciones que ayuden a las personas a
+                                        hacer su vida más simple.
+                                    </p>
+                                    <p className="site-banner-desc">
+                                        Me encanta desarrollar con{" "}
+                                        <strong>React</strong>,{" "}
+                                        <strong>Angular</strong>,{" "}
+                                        <strong>Node</strong>,{" "}
+                                        <strong>Firebase</strong> y{" "}
+                                        <strong>Google Cloud Platform</strong>.
                                     </p>
                                 </div>
                             ) : null}
