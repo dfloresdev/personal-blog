@@ -137,6 +137,25 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                         <strong>Firebase</strong> y{" "}
                                         <strong>Google Cloud Platform</strong>.
                                     </p>
+                                    <p className="site-banner-desc">
+                                        Desarrollo software con amor y me
+                                        encanta{" "}
+                                        <strong>
+                                            compartir mi conocimiento
+                                        </strong>{" "}
+                                        a través de mi{" "}
+                                        <a
+                                            href="https://www.youtube.com/channel/UCB1lf-mZ7RSU-pSSR4f_IKA"
+                                            target="_blank"
+                                        >
+                                            <strong>canal de Youtube</strong>
+                                        </a>{" "}
+                                        o este{" "}
+                                        <a href="#">
+                                            <strong>increíble blog</strong>
+                                        </a>
+                                        .
+                                    </p>
                                 </div>
                             ) : null}
                             <nav className="site-nav">
