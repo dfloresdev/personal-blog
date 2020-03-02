@@ -57,14 +57,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                                 alt={site.title}
                                             />
                                         ) : (
-                                            <Img
-                                                fixed={
-                                                    data.file.childImageSharp
-                                                        .fixed
-                                                }
-                                                alt={site.title}
-                                            />
-                                        )}
+                                                <Img
+                                                    fixed={
+                                                        data.file.childImageSharp
+                                                            .fixed
+                                                    }
+                                                    alt={site.title}
+                                                />
+                                            )}
                                     </Link>
                                 </div>
                                 <div className="site-mast-right">
@@ -82,30 +82,30 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             />
                                         </a>
                                     )}
-                                    {site.facebook && (
-                                        <a
-                                            href={facebookUrl}
-                                            className="site-nav-item"
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                        >
-                                            <img
-                                                className="site-nav-icon"
-                                                src="/images/icons/facebook.svg"
-                                                alt="Facebook"
-                                            />
-                                        </a>
-                                    )}
+
                                     <a
                                         className="site-nav-item"
-                                        href={`https://feedly.com/i/subscription/feed/${config.siteUrl}/rss/`}
+                                        href={`https://www.linkedin.com/in/dfloresdev/`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                     >
                                         <img
                                             className="site-nav-icon"
-                                            src="/images/icons/rss.svg"
-                                            alt="RSS Feed"
+                                            src="/images/icons/linkedin.svg"
+                                            alt="Linkedin"
+                                        />
+                                    </a>
+
+                                    <a
+                                        className="site-nav-item"
+                                        href={`https://github.com/dfloresdev`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className="site-nav-icon"
+                                            src="/images/icons/github.svg"
+                                            alt="github"
                                         />
                                     </a>
                                 </div>
