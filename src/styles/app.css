@@ -833,6 +833,13 @@ h6 {
     border-top-right-radius: 20px;
 }
 
+.post-card-tags-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1em 10px 1em;
+}
+
 .post-card-footer {
     display: flex;
     align-items: center;
