@@ -192,10 +192,17 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </header>
 
                     {/* <main className="site-main"> */}
-                    <main>
-                        {/* All the main content gets inserted here, index.js, post.js */}
-                        {children}
-                    </main>
+                    {isHome ? (
+                        <main className="site-main">
+                            {/* All the main content gets inserted here, index.js, post.js */}
+                            {children}
+                        </main>
+                    ) : (
+                        <main>
+                            {/* All the main content gets inserted here, index.js, post.js */}
+                            {children}
+                        </main>
+                    )}
                 </div>
 
                 <div className="viewport-bottom">
