@@ -57,14 +57,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                                 alt={site.title}
                                             />
                                         ) : (
-                                                <Img
-                                                    fixed={
-                                                        data.file.childImageSharp
-                                                            .fixed
-                                                    }
-                                                    alt={site.title}
-                                                />
-                                            )}
+                                            <Img
+                                                fixed={
+                                                    data.file.childImageSharp
+                                                        .fixed
+                                                }
+                                                alt={site.title}
+                                            />
+                                        )}
                                     </Link>
                                 </div>
                                 <div className="site-mast-right">
@@ -108,6 +108,18 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                             alt="github"
                                         />
                                     </a>
+                                    <a
+                                        className="site-nav-item"
+                                        href={`https://stackoverflow.com/users/12259615/dfloresdev`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            className="site-nav-icon"
+                                            src="/images/icons/stack-overflow.svg"
+                                            alt="stack overflow"
+                                        />
+                                    </a>
                                 </div>
                             </div>
                             {isHome ? (
@@ -121,36 +133,37 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                                     </h1>
                                     <p className="site-banner-desc">
                                         Ingeniero en Sistemas Computacionales,
-                                        estudiante de la primer{" "}
-                                        <strong>escuela de JavaScript</strong>{" "}
-                                        de Platzi y del programa{" "}
+                                        estudiante de la primer{` `}
+                                        <strong>escuela de JavaScript</strong>
+                                        {` `}
+                                        de Platzi y del programa{` `}
                                         <strong>Platzi Master</strong>. Me
                                         encanta aprender, practicar y proponer
                                         soluciones que ayuden a las personas a
                                         hacer su vida más simple.
                                     </p>
                                     <p className="site-banner-desc">
-                                        Me encanta desarrollar con{" "}
-                                        <strong>React</strong>,{" "}
-                                        <strong>Angular</strong>,{" "}
-                                        <strong>Node</strong>,{" "}
-                                        <strong>Firebase</strong> y{" "}
+                                        Me encanta desarrollar con{` `}
+                                        <strong>React</strong>,{` `}
+                                        <strong>Angular</strong>,{` `}
+                                        <strong>Node</strong>,{` `}
+                                        <strong>Firebase</strong> y{` `}
                                         <strong>Google Cloud Platform</strong>.
                                     </p>
                                     <p className="site-banner-desc">
                                         Desarrollo software con amor y me
-                                        encanta{" "}
+                                        encanta{` `}
                                         <strong>
                                             compartir mi conocimiento
-                                        </strong>{" "}
-                                        a través de mi{" "}
+                                        </strong>
+                                        {` `}a través de mi{` `}
                                         <a
                                             href="https://www.youtube.com/channel/UCB1lf-mZ7RSU-pSSR4f_IKA"
                                             target="_blank"
                                         >
                                             <strong>canal de Youtube</strong>
-                                        </a>{" "}
-                                        o este{" "}
+                                        </a>
+                                        {` `}o este{` `}
                                         <a href="#">
                                             <strong>increíble blog</strong>
                                         </a>
@@ -178,7 +191,8 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                         </div>
                     </header>
 
-                    <main className="site-main">
+                    {/* <main className="site-main"> */}
+                    <main>
                         {/* All the main content gets inserted here, index.js, post.js */}
                         {children}
                     </main>
