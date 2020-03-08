@@ -14,7 +14,6 @@ import { MetaData } from "../components/common/meta";
  */
 const Post = ({ data, location }) => {
     const post = data.ghostPost;
-    console.log(post);
     const containerHeader = {
         minHeight: "350px",
         backgroundImage: "url(" + post.feature_image + ")",
