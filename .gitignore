@@ -73,3 +73,5 @@ typings/
 public
 yarn-error.log
 .netlify/
+
+.ghost.json
