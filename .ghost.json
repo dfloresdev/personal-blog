@@ -1,12 +1,12 @@
 {
   "development": {
-    "apiUrl": "https://dfloresdev-sqk3ue4w7a-uc.a.run.app",
-    "contentApiKey": "9306846f119707c9ee44e47371",
+    "apiUrl": "https://dfloresdev-blog-sqk3ue4w7a-uc.a.run.app/",
+    "contentApiKey": "c866440ca3cfc4ac59d0ab10d2",
     "version": "v3"
   },
   "production": {
-    "apiUrl": "https://dfloresdev-sqk3ue4w7a-uc.a.run.app",
-    "contentApiKey": "9306846f119707c9ee44e47371",
+    "apiUrl": "https://dfloresdev-blog-sqk3ue4w7a-uc.a.run.app/",
+    "contentApiKey": "c866440ca3cfc4ac59d0ab10d2",
     "version": "v3"
   }
 }
